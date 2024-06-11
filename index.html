@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Website</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="images/icon.png">
+    <style>
+        html, body {
+            height: 100%;
+        }
+        body {
+            display: flex;
+            flex-direction: column;
+        }
+        main {
+            flex: 1;
+        }
+        .navbar-nav {
+            margin: 0 auto;
+        }
+        .navbar-brand, .footer-content {
+            padding-left: 15px; /* Adjust this value to align with main content */
+        }
+        .navbar {
+            align-items: center;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <nav class="navbar navbar-expand-md navbar-light bg-light">
+            <div class="container justify-content-between">
+                <a class="navbar-brand p-0 mr-auto" href="index.html">
+                    <img class="logo" src="images/logo.png" width="100" height="25" alt="Icon">
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse ml-auto" id="navbarNav">
+                    <ul class="navbar-nav d-flex justify-content-between ml-auto mr-0">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Main</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="lecture.html">Lectures</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="quizzesDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Quizzes
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="quizzesDropdown">
+                                <a class="dropdown-item" href="quiz/lecture1.html">Lecture 1</a>
+                                <a class="dropdown-item" href="quiz/lecture2.html">Lecture 2</a>
+                                <a class="dropdown-item" href="quiz/lecture3.html">Lecture 3</a>
+                                <a class="dropdown-item" href="quiz/lecture4.html">Lecture 4</a>
+                                <a class="dropdown-item" href="quiz/lecture5.html">Lecture 5</a>
+                                <a class="dropdown-item" href="quiz/lecture6.html">Lecture 6</a>
+                                <a class="dropdown-item" href="quiz/lecture7.html">Lecture 7</a>
+                                <a class="dropdown-item" href="quiz/lecture8.html">Lecture 8</a>
+                                <a class="dropdown-item" href="quiz/lecture9.html">Lecture 9</a>
+                                <!-- Add more lectures as needed -->
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="assignments.html">Assignments</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="video.html">Video tutorials</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="download.html">Additional</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="sis.html">SIS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="literature.html">literature</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link bg-success text-light rounded" href="authors.html">Authors</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main id="main" class="container mt-5">
+        <h2 class="display-4 mb-3">Welcome to the Subject</h2>
+        <p>The Capstone Project is a 10-week course, where students will have an opportunity to address a theoretical, 
+            practical, real-world challenge using the skills and knowledge they have gained throughout their program of study. 
+            The Capstone Project culminates with a summary “lessons learned” paper, a collection of illustrative work samples, 
+            and a presentation of the project outcomes.  There will also be a critical evaluation of the student's work.</p>
+        <h2 class="display-4 mb-3 mt-5">Course goals</h2>
+        <ul class="list-group">
+            <li class="list-group-item"><p>Critically reason and analyze a reasonably complex problem.</p></li>
+            <li class="list-group-item"><p>Use research methodologies in solving complex problems.</p></li>
+            <li class="list-group-item"><p>Use appropriate research tools, resources and technologies.</p></li>
+            <li class="list-group-item"><p>Differentiate between qualitative and quantitative methods in research.</p></li>
+            <li class="list-group-item"><p>Prepare project paper, presentation.</p></li>
+        </ul>
+        <h2 class="display-4 mb-3 mt-5">Course objectives:</h2>
+        <p class="mb-4 h5">Student should be able to:</p>
+        <ul>
+            <li><p>Design a solution to a significant open-ended problem that is concerned with data science and/or machine learning.</p></li>
+            <li><p>Develop desired work product/deliverable/outcome (a product, process, service, system, application or paper/article/book) that addresses the selected problem using the skills learned at previous courses.</p></li>
+            <li><p>Choose appropriate theories and techniques to address the problem.</p></li>
+            <li><p>Select an appropriate evaluation methodology to confirm that the solution meets the design goals.</p></li>
+            <li><p>Document and present (using written, oral and visual means) the design of a proposed solution to the selected problem.</p></li>
+            <li><p>Demonstrate and apply skills, methodologies, techniques and technologies necessary to successfully accomplish project goals and objectives.</p></li>
+        </ul>
+    </main>
+
+   <!-- Footer -->
+   <footer class="bg-secondary text-light text-left text-lg-start mt-5">
+    <div class="container p-4">
+        <div class="row justify-content-left">
+            <div class="col-lg-6 col-md-12 mb-4 mb-md-0 p-0 text-left footer-content">
+                <h5 class="text-uppercase">Contact Information</h5>
+                <p>Aigul Mimenbayeva</p>
+                <p>Email: a.mimenbayeva@astanait.edu.kz</p>
+                <p>Working hours: Mon-Fri, 9am-6pm</p>
+                <p>University: Astana IT University</p>
+            </div>
+            
+        </div>
+    </div>
+</footer>
+
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

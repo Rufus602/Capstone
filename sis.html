@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Website</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="images/icon.png">
+    <style>
+        html, body {
+            height: 100%;
+        }
+        body {
+            display: flex;
+            flex-direction: column;
+        }
+        main {
+            flex: 1;
+        }
+        .navbar-nav {
+            margin: 0 auto;
+        }
+        .navbar-brand, .footer-content {
+            padding-left: 15px; /* Adjust this value to align with main content */
+        }
+        .navbar {
+            align-items: center;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <nav class="navbar navbar-expand-md navbar-light bg-light">
+            <div class="container justify-content-between">
+                <a class="navbar-brand p-0 mr-auto" href="index.html">
+                    <img class="logo" src="images/logo.png" width="100" height="25" alt="Icon">
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse ml-auto" id="navbarNav">
+                    <ul class="navbar-nav d-flex justify-content-between ml-auto mr-0">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Main</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="lecture.html">Lectures</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="quizzesDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Quizzes
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="quizzesDropdown">
+                                <a class="dropdown-item" href="quiz/lecture1.html">Lecture 1</a>
+                                <a class="dropdown-item" href="quiz/lecture2.html">Lecture 2</a>
+                                <a class="dropdown-item" href="quiz/lecture3.html">Lecture 3</a>
+                                <a class="dropdown-item" href="quiz/lecture4.html">Lecture 4</a>
+                                <a class="dropdown-item" href="quiz/lecture5.html">Lecture 5</a>
+                                <a class="dropdown-item" href="quiz/lecture6.html">Lecture 6</a>
+                                <a class="dropdown-item" href="quiz/lecture7.html">Lecture 7</a>
+                                <a class="dropdown-item" href="quiz/lecture8.html">Lecture 8</a>
+                                <a class="dropdown-item" href="quiz/lecture9.html">Lecture 9</a>
+                                <!-- Add more lectures as needed -->
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="assignments.html">Assignments</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="video.html">Video tutorials</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="download.html">Additional</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="sis.html">SIS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="literature.html">literature</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link bg-success text-light rounded" href="authors.html">Authors</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main id="main" class="container mt-5">
+        <img src="./images/sis.png" alt="sis table">
+    </main>
+
+   <!-- Footer -->
+   <footer class="bg-secondary text-light text-left text-lg-start mt-5">
+    <div class="container p-4">
+        <div class="row justify-content-left">
+            <div class="col-lg-6 col-md-12 mb-4 mb-md-0 p-0 text-left footer-content">
+                <h5 class="text-uppercase">Contact Information</h5>
+                <p>Aigul Mimenbayeva</p>
+                <p>Email: a.mimenbayeva@astanait.edu.kz</p>
+                <p>Working hours: Mon-Fri, 9am-6pm</p>
+                <p>University: Astana IT University</p>
+            </div>
+            
+        </div>
+    </div>
+</footer>
+
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

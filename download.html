@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Website</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="images/icon.png">
+    <style>
+        html, body {
+            height: 100%;
+        }
+        body {
+            display: flex;
+            flex-direction: column;
+        }
+        main {
+            flex: 1;
+        }
+        .navbar-nav {
+            margin: 0 auto;
+        }
+        .navbar-brand, .footer-content {
+            padding-left: 15px; /* Adjust this value to align with main content */
+        }
+        .navbar {
+            align-items: center;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <nav class="navbar navbar-expand-md navbar-light bg-light">
+            <div class="container justify-content-between">
+                <a class="navbar-brand p-0 mr-auto" href="index.html">
+                    <img class="logo" src="images/logo.png" width="100" height="25" alt="Icon">
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse ml-auto" id="navbarNav">
+                    <ul class="navbar-nav d-flex justify-content-between ml-auto mr-0">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Main</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="lecture.html">Lectures</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="quizzesDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Quizzes
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="quizzesDropdown">
+                                <a class="dropdown-item" href="quiz/lecture1.html">Lecture 1</a>
+                                <a class="dropdown-item" href="quiz/lecture2.html">Lecture 2</a>
+                                <a class="dropdown-item" href="quiz/lecture3.html">Lecture 3</a>
+                                <a class="dropdown-item" href="quiz/lecture4.html">Lecture 4</a>
+                                <a class="dropdown-item" href="quiz/lecture5.html">Lecture 5</a>
+                                <a class="dropdown-item" href="quiz/lecture6.html">Lecture 6</a>
+                                <a class="dropdown-item" href="quiz/lecture7.html">Lecture 7</a>
+                                <a class="dropdown-item" href="quiz/lecture8.html">Lecture 8</a>
+                                <a class="dropdown-item" href="quiz/lecture9.html">Lecture 9</a>
+                                <!-- Add more lectures as needed -->
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="assignments.html">Assignments</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="video.html">Video tutorials</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="download.html">Additional</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="sis.html">SIS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="literature.html">literature</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link bg-success text-light rounded" href="authors.html">Authors</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+
+    <!-- Main Content -->
+    <main id="main" class="container mt-5">
+        <h1 class="display-4 mb-3">Additional Materials</h1>
+        <p class="mb-1">There are materials you can find useful for your project:</p>
+        <ul class="list-group">
+            <li class="list-group-item"><a href="https://drive.usercontent.google.com/download?id=1ptU35sfGKRH3H7FzAA0qhHvJfnOaO6R4&export=download&authuser=2&confirm=t&uuid=5fa8eb13-9f45-4d45-b799-9c2cc781699a&at=APZUnTUzJ4PQJOfHBZEFGtFa0Coz:1717752380937"> Creating team project in Azure DevOps</a></li>
+            <li class="list-group-item"><a href="https://drive.usercontent.google.com/download?id=1AQSFik1LKaeRXn4hby5OqCDXYSBrp8XD&export=download&authuser=2&confirm=t&uuid=e6ee945b-9e4d-4704-8066-7b20343a60e0&at=APZUnTXHUZKsJGmCRBvw9y8sHUMi:1717754490981"> General architecture of system</a></li>
+            <li class="list-group-item"><a href="https://drive.usercontent.google.com/download?id=1abPkutTROi56odoKzwjDjfc-5uhoONG-&export=download&authuser=2&confirm=t&uuid=01ea2520-7389-4a71-86c4-c9a914983653&at=APZUnTWnmLl3zq8wXOuqMm2hRAPo:1717754611683"> How to create entity-relationship diagram (ERD)</a></li>
+            <li class="list-group-item"><a href="https://drive.usercontent.google.com/download?id=1eK00ZVu5Rjzhm42_FMHU1SFxh5LpYWEI&export=download&authuser=2&confirm=t&uuid=fa13ab2e-c207-4a1a-ac4a-11d70f230d6e&at=APZUnTUH0CeIMT4vpLnzP4-gF0jk:1717754633797"> How to create final presentation</a></li>
+            <li class="list-group-item"><a href="https://drive.usercontent.google.com/download?id=1zuzvAysY92IubPyS1G08KyW0s44nl1mZ&export=download&authuser=2&confirm=t&uuid=0d36a50c-9397-4f79-88c5-669aa07b72f5&at=APZUnTW3S6V0LnIhHKjF3Risb0vY:1717754651664"> How to review literature</a></li>
+            <li class="list-group-item"><a href="https://drive.usercontent.google.com/download?id=1NKSBcx13qvCFbs5_t8dY5MaIL3yMLKpI&export=download&authuser=2&confirm=t&uuid=2a10dad6-86d2-43af-bbc8-30bb8a040788&at=APZUnTUkhC-fclR2EeDdFopYUem0:1717754669476"> What is capstone project</a></li>
+        </ul>
+    </main>
+
+     <!-- Footer -->
+     <footer class="bg-secondary text-light text-left text-lg-start mt-5">
+        <div class="container p-4">
+            <div class="row justify-content-left">
+                <div class="col-lg-6 col-md-12 mb-4 mb-md-0 p-0 text-left footer-content">
+                    <h5 class="text-uppercase">Contact Information</h5>
+                    <p>Aigul Mimenbayeva</p>
+                    <p>Email: a.mimenbayeva@astanait.edu.kz</p>
+                    <p>Working hours: Mon-Fri, 9am-6pm</p>
+                    <p>University: AstanaIT University</p>
+                </div>
+                
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lecture 8 Quiz</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="../images/icon.png">
+    <style>
+        html, body {
+            height: 100%;
+        }
+        body {
+            display: flex;
+            flex-direction: column;
+        }
+        main {
+            flex: 1;
+        }
+        .navbar-nav {
+            margin: 0 auto;
+        }
+        .navbar-brand, .footer-content {
+            padding-left: 15px; /* Adjust this value to align with main content */
+        }
+        .navbar {
+            align-items: center;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <nav class="navbar navbar-expand-md navbar-light bg-light">
+            <div class="container justify-content-between">
+                <a class="navbar-brand p-0 mr-auto" href="../index.html">
+                    <img class="logo" src="../images/logo.png" width="100" height="25" alt="Icon">
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse ml-auto" id="navbarNav">
+                    <ul class="navbar-nav d-flex justify-content-between ml-auto mr-0">
+                        <li class="nav-item">
+                            <a class="nav-link" href="../index.html">Main</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../lecture.html">Lectures</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle bg-success text-light rounded" href="#" id="quizzesDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Quizzes
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="quizzesDropdown">
+                                <a class="dropdown-item" href="lecture1.html">Lecture 1</a>
+                                <a class="dropdown-item" href="lecture2.html">Lecture 2</a>
+                                <a class="dropdown-item" href="lecture3.html">Lecture 3</a>
+                                <a class="dropdown-item" href="lecture4.html">Lecture 4</a>
+                                <a class="dropdown-item" href="lecture5.html">Lecture 5</a>
+                                <a class="dropdown-item" href="lecture6.html">Lecture 6</a>
+                                <a class="dropdown-item" href="lecture7.html">Lecture 7</a>
+                                <a class="dropdown-item" href="lecture8.html">Lecture 8</a>
+                                <a class="dropdown-item" href="lecture9.html">Lecture 9</a>
+                                <!-- Add more lectures as needed -->
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../video.html">Video tutorials</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../download.html">Additional</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../sis.html">SIS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../literature.html">literature</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../authors.html">Authors</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- Main Content -->
+    <main id="main" class="container mt-5">
+        <h1>Quiz Lecture 5</h1>
+        <form id="quizForm">
+            <div class="form-group">
+                <label>1. What defines the 'Project Scope' as described in Lecture 5?</label><br>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="question1" id="q1a" value="A">
+                    <label class="form-check-label" for="q1a">A) The financial resources allocated to the project</label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="question1" id="q1b" value="B">
+                    <label class="form-check-label" for="q1b">B) The work required to deliver a product or service according to specifications</label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="question1" id="q1c" value="C">
+                    <label class="form-check-label" for="q1c">C) The timeline established for project completion</label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="question1" id="q1d" value="D">
+                    <label class="form-check-label" for="q1d">D) The list of team members and their roles</label>
+                </div>
+            </div>
+            <div class="form-group">
+                <label>2. Which role does the Project Sponsor play in scope management?</label><br>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="question2" id="q2a" value="A">
+                    <label class="form-check-label" for="q2a">A) Determines the project budget</label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="question2" id="q2b" value="B">
+                    <label class="form-check-label" for="q2b">B) Approves the final project deliverables</label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="question2" id="q2c" value="C">
+                    <label class="form-check-label" for="q2c">C) Writes the project reports</label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="question2" id="q2d" value="D">
+                    <label class="form-check-label" for="q2d">D) Approves the Project Scope</label>
+                </div>
+            </div>
+            <div class="form-group">
+                <label>3. Why is controlling project scope important?</label><br>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="question3" id="q3a" value="A">
+                    <label class="form-check-label" for="q3a">A) It prevents changes to the project timeline</label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="question3" id="q3b" value="B">
+                    <label class="form-check-label" for="q3b">B) It ensures that only necessary work is done</label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="question3" id="q3c" value="C">
+                    <label class="form-check-label" for="q3c">C) It increases the project cost</label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="question3" id="q3d" value="D">
+                    <label class="form-check-label" for="q3d">D) It reduces communication with stakeholders</label>
+                </div>
+            </div>
+            <div class="form-group">
+                <label>4. According to Lecture 5, what can cause a project to fail?</label><br>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="question4" id="q4a" value="A">
+                    <label class="form-check-label" for="q4a">A) Overly detailed project scopes</label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="question4" id="q4b" value="B">
+                    <label class="form-check-label" for="q4b">B) Too many project sponsors</label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="question4" id="q4c" value="C">
+                    <label class="form-check-label" for="q4c">C) Poor control over project scope</label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="question4" id="q4d" value="D">
+                    <label class="form-check-label" for="q4d">D) Excessive time allocated to tasks</label>
+                </div>
+            </div>
+            <div class="form-group">
+                <label>5. What is the 'triple constraint' mentioned in Lecture 5?</label><br>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="question5" id="q5a" value="A">
+                    <label class="form-check-label" for="q5a">A) Scope, Time, and Cost</label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="question5" id="q5b" value="B">
+                    <label class="form-check-label" for="q5b">B) Scope, Quality, and Risk</label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="question5" id="q5c" value="C">
+                    <label class="form-check-label" for="q5c">C) Quality, Risk, and Cost</label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="question5" id="q5d" value="D">
+                    <label class="form-check-label" for="q5d">D) Time, Cost, and Risk</label>
+                </div>
+            </div>
+            <button type="button" class="btn btn-primary" onclick="checkAnswers()">Submit</button>
+        </form>
+
+        <div id="results" class="mt-3"></div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-secondary text-light text-left text-lg-start mt-5">
+        <div class="container p-4">
+            <div class="row justify-content-left">
+                <div class="col-lg-6 col-md-12 mb-4 mb-md-0 p-0 text-left footer-content">
+                    <h5 class="text-uppercase">Contact Information</h5>
+                    <p>Aigul Mimenbayeva</p>
+                    <p>Email: a.mimenbayeva@astanait.edu.kz</p>
+                    <p>Working hours: Mon-Fri, 9am-6pm</p>
+                    <p>University: AstanaIT University</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <!-- Quiz Script -->
+    <script>
+        function checkAnswers() {
+            const answers = {
+                question1: 'B',
+                question2: 'D',
+                question3: 'B',
+                question4: 'C',
+                question5: 'A'
+            };
+
+            let score = 0;
+            const totalQuestions = 5;
+            const results = document.getElementById('results');
+
+            for (let i = 1; i <= totalQuestions; i++) {
+                const question = document.querySelector(`input[name="question${i}"]:checked`);
+                if (question && question.value === answers[`question${i}`]) {
+                    score++;
+                }
+            }
+
+            results.innerHTML = `<h3>Your Score: ${score} out of ${totalQuestions}</h3>`;
+        }
+    </script>
+</body>
+</html>
